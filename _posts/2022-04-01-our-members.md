@@ -5,6 +5,7 @@ excerpt: "本年度、新たに学部生５名が加わりました。"
 author: "Naoki Kitamura"
 date:   2022-04-01
 members: true
+feature: /assets/img/members/member2022.png
 tags: 
  - 研究室情報
  - メンバー
