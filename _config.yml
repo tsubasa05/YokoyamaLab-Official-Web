@@ -1,7 +1,7 @@
 # Site
-title:              "Yokoyama Lab @ Tokyo Metropolitan University"
+title:              "Yokoyama Lab"
 bio:                '情報の偏在性と遍在性を科学する'
-description:        "東京都立大学システムデザイン学部情報科学科横山研究室の公式Web。横山研はデータベース・データ工学の分野に属する研究室で、主に５Ｇ時代における人と人のコミュニケーション理解を目的として、　コミュニケーションを円滑にする技術やSNS上のビッグデータ分析を、『情報の偏在性と遍在性』に着目して研究しています。"
+description:        "東京都立大学システムデザイン学部情報科学科横山研究室の公式Web。５Ｇ時代のビッグデータ分析の研究を行っています。"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
