@@ -22,7 +22,7 @@ comments: false
 * 国立情報学研究所客員准教授
 * 東京大学生産技術研究所リサーチフェロー
 
-{% include toc.html html=content,skip_no_ids=true %}
+{% include toc.html html=content skip_no_ids=true %}
 
 ## メッセージ {#message}
 
