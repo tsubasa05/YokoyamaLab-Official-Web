@@ -1,37 +1,34 @@
 ---
-layout: page
-title: About the Theme
+layout: about
+title: "横山研究室について"
 tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+date: 2018-04-01
+excerpt: "横山研究室は2018年4月に発足した東京都立大学システムデザイン学部情報科学科に属するデータベースやデータ工学に関する研究室です。"
+about: true
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## ご挨拶
 
-## Preview
+東京都立大学システムデザイン学部情報科学科に属するデータベースやデータ工学に関する研究室です。横山研では人と人とのコミュニケーションにより発せられるビッグデータの分析を主軸に以下の２つの課題の研究を勧めています。
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+* Twitter等のソーシャルビッグデータを用いた可視化・分析
+* 5Gネットワークによる大容量・低遅延・多接続性を活用する大規模センサデータ処理
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+この中でも特にデータが内包する『地理情報』『位置情報』に着目し、そのデータの分布、すなわち偏在性と遍在性に着目した様々なアルゴリズムや応用分析手法を研究しています。
 
-## Getting Started
+### Labo Reader: 横山 昌平
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+* 東京都立大学システムデザイン学部情報科学科准教授
+* 国立情報学研究所客員准教授
+* 東京大学生産技術研究所リサーチフェロー
+
+{% include toc.html html=content,skip_no_ids=true %}
+
+## メッセージ {#message}
+
+
+
+## アクセス {#access}
+
+
