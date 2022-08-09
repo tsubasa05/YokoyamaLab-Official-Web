@@ -1,7 +1,6 @@
 ---
 layout: about
 title: "横山研究室について"
-tags: [about, Jekyll, theme, moon]
 date: 2018-04-01
 excerpt: "横山研究室は2018年4月に発足した東京都立大学システムデザイン学部情報科学科に属するデータベースやデータ工学に関する研究室です。"
 about: true
