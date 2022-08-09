@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2022年度 横山研"
+excerpt: "本年度、新たに学部生５名が加わりました。"
 author: "Naoki Kitamura"
 date:   2022-04-01
 members: true
