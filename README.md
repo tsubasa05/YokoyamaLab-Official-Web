@@ -1,7 +1,8 @@
 # 横山研Webページ管理の手引き
 
 * 事前知識（各リンクを読んで周辺知識を身に着けてください）
-  * このページはGitHub場でWebページをホスティングする機能[GitHub Pages](https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages)上にあります。
+  * **このREADME.mdも含めて全てパブリック領域なので非公開情報は置かない事！** 
+  * このページはGitHub上でWebページをホスティングする機能[GitHub Pages](https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages)を利用しています。
   * CMSやblog的なページを静的なサイトで実現する[Jekyll](http://jekyllrb-ja.github.io/)環境で作成されています。
   * 各ページは'''_post'''ディレクトリに格納される[Markdowns](https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa)ファイルで記述します。
   * Jekyllはテンプレートエンジンである[Liquid](https://shopify.github.io/liquid/)を利用していますので、その機能が使えます。
