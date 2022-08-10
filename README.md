@@ -7,7 +7,6 @@
   * 各ページは'''_post'''ディレクトリに格納される[Markdowns](https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa)ファイルで記述します。
   * Jekyllはテンプレートエンジンである[Liquid](https://shopify.github.io/liquid/)を利用していますので、その機能が使えます。
   * 全体デザインは[Moon Jekyll Theme](https://github.com/TaylanTatli/Moon)をforkしてページを作っています。
-  * テーマの作者は寄付を募っています。[![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
 
 ----
 
