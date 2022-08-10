@@ -12,7 +12,7 @@ comments: true
 # お知らせ
 
 横山研究室のWebページをリニューアルしました。
-{: .notice}}
+{: .notice}
 
 このページはGitHub上でWebページをホスティングする機能[GitHub Pages](https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages)を利用しています。GitHub Pagesは静的なページしか保持できませんが、[Jekyll](http://jekyllrb-ja.github.io/)を用いる事で、CMSやblogのようなサイトを実現できます。CMSのようにページ編集機能はありませんが、[Markdowns](https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa)で簡潔簡単にページを執筆できます。またJekyllはテンプレートエンジンである[Liquid](https://shopify.github.io/liquid/)を利用していますので、デザインの効率的な管理が可能です。今回のリニューアルサイトの全体デザインは[Moon Jekyll Theme](https://github.com/TaylanTatli/Moon)をforkして、カスタマイズしています。なお、このテーマの作者は寄付を募っています。[![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd) 
 

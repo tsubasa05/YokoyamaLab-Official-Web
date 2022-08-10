@@ -179,7 +179,7 @@ comments: false
 
 ### 文章を囲む
 
-* 文章に続いて```{: .notice}}```と記述するとその段落が罫線で囲まれます。NoticeやWarningメッセージ用ですが、強調用途で使えます。
+* 文章に続いて```{: .notice}```と記述するとその段落が罫線で囲まれます。NoticeやWarningメッセージ用ですが、強調用途で使えます。
 
 ```markdown
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
