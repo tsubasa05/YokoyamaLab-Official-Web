@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Markdown Syntax"
-date:   2016-03-15
+title:  "Markdownの書き方"
+date:   1977-10-31
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 tag:
 - 内部向け資料
