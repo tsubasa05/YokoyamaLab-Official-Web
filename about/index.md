@@ -12,7 +12,7 @@ comments: false
 東京都立大学システムデザイン学部情報科学科に属するデータベースやデータ工学に関する研究室です。横山研では人と人とのコミュニケーションにより発せられるビッグデータの分析を主軸に以下の２つの課題の研究を勧めています。
 
 * Twitter等のソーシャルビッグデータを用いた可視化・分析
-* 5Gネットワークによる大容量・低遅延・多接続性を活用する大規模センサデータ処理
+* 5Gネットワークの大容量・低遅延・多接続性を高度利用するための大規模センサデータ処理
 
 この中でも特にデータが内包する『地理情報』『位置情報』に着目し、そのデータの分布、すなわち偏在性と遍在性に着目した様々なアルゴリズムや応用分析手法を研究しています。
 
@@ -50,7 +50,7 @@ comments: false
 * 東京都立大学 日野キャンパス
 * 〒191-0065 東京都日野市旭が丘6-6
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.626261279392!2d139.36427921537745!3d35.66157868019888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e2086b789781%3A0x74b7f28cd003b142!2z5p2x5Lqs6YO956uL5aSn5a2mIOaXpemHjuOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1660097920080!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.626261279392!2d139.36427921537745!3d35.66157868019888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e2086b789781%3A0x74b7f28cd003b142!2z5p2x5Lqs6YO956uL5aSn5a2mIOaXpemHjuOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1660097920080!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ### アクセス
 
