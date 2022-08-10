@@ -3,7 +3,6 @@ layout: post
 title:  "外部からの受験希望者へ"
 date:   2018-04-01
 excerpt: "外部受験希望者向けのFAQをまとめています。問い合わせる前に必ず読んでください。"
-project: true
 about: true
 tag:
 - 研究室情報
