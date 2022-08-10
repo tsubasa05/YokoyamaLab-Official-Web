@@ -188,12 +188,13 @@ comments: false
 ### 画像を綺麗に入れる
 
 * 画像を記事に入れるには```<figure>```タグを使います。
-
+* 画像は```assets/img```ディレクトリ内に格納してください。
+* Markdownから参照する時は```{{  site.url }}/```を前に加えて絶対パスにするのを忘れずに。
 #### 画像１つ
 
 ``` html
-<figure class="third">
-	<img src="assets/img/placeholder-big.jpg">
+<figure>
+	<img src="{{ site.url }}/assets/img/placeholder-big.jpg">
 	<figcaption>画像一つだけ掲載する例</figcaption>
 </figure>
 ```
@@ -201,9 +202,9 @@ comments: false
 #### 画像２つ
 
 ``` html
-<figure class="third">
-	<img src="assets/img/placeholder-big.jpg">
-  <img src="assets/img/placeholder-big.jpg">
+<figure class="half">
+	<img src="{{ site.url }}/assets/img/placeholder-big.jpg">
+  <img src="{{ site.url }}/assets/img/placeholder-big.jpg">
 	<figcaption>画像２つを横並びにする例</figcaption>
 </figure>
 ```
@@ -212,16 +213,16 @@ comments: false
 
 ``` html
 <figure class="third">
-	<img src="assets/img/placeholder-big.jpg">
-  <img src="assets/img/placeholder-big.jpg">
-  <img src="assets/img/placeholder-big.jpg">
+	<img src="{{ site.url }}/assets/img/placeholder-big.jpg">
+  <img src="{{ site.url }}/assets/img/placeholder-big.jpg">
+  <img src="{{ site.url }}/assets/img/placeholder-big.jpg">
 	<figcaption>画像３つを横並びにする例</figcaption>
 </figure>
 ```
 
 #### 動画を埋め込む
 
-* 動画を記事に入れるには、Youtube公式の埋め込みコードが使え間ます。レスポンシブにはならないので注意してください。
+* 動画を記事に入れるには、Youtube公式の埋め込みコードが使えます。レスポンシブにはならないので注意してください。
 
 ``` html
 <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>

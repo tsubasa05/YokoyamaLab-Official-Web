@@ -9,7 +9,7 @@ tag:
 - sample
 - test
 - jekyll
-comments: true
+comments: false
 ---
 
 ## HTML Elements
@@ -114,14 +114,14 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move your car. **Midto
 
 ## Images
 
-<figure class="third">
+<figure>
 	<img src="{{ site.url }}/assets/img/placeholder-big.jpg">
 	<figcaption>画像一つだけ掲載する例</figcaption>
 </figure>
 
 ----
 
-<figure class="third">
+<figure class="half">
 	<img src="{{ site.url }}/assets/img/placeholder-big.jpg">
   <img src="{{ site.url }}/assets/img/placeholder-big.jpg">
 	<figcaption>画像２つを横並びにする例</figcaption>
@@ -139,7 +139,12 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move your car. **Midto
 ## MathJax
 
 Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
+
+----
+
 \\[ \frac{1}{n^{2}} \\]
+
+----
 
 $$
 \begin{align*}
