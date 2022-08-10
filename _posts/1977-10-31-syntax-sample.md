@@ -115,24 +115,24 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move your car. **Midto
 ## Images
 
 <figure class="third">
-	<img src="assets/img/placeholder-big.jpg">
+	<img src="{{ site.url }}/assets/img/placeholder-big.jpg">
 	<figcaption>画像一つだけ掲載する例</figcaption>
 </figure>
 
 ----
 
 <figure class="third">
-	<img src="assets/img/placeholder-big.jpg">
-  <img src="assets/img/placeholder-big.jpg">
+	<img src="{{ site.url }}/assets/img/placeholder-big.jpg">
+  <img src="{{ site.url }}/assets/img/placeholder-big.jpg">
 	<figcaption>画像２つを横並びにする例</figcaption>
 </figure>
 
 ----
 
 <figure class="third">
-	<img src="assets/img/placeholder-big.jpg">
-  <img src="assets/img/placeholder-big.jpg">
-  <img src="assets/img/placeholder-big.jpg">
+	<img src="{{ site.url }}/assets/img/placeholder-big.jpg">
+  <img src="{{ site.url }}/assets/img/placeholder-big.jpg">
+  <img src="{{ site.url }}/assets/img/placeholder-big.jpg">
 	<figcaption>画像３つを横並びにする例</figcaption>
 </figure>
 
