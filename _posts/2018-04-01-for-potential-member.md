@@ -57,4 +57,4 @@ comments: false
 修士に遊学に関するお問い合わせは以下のフォームからお願いします。
 {: .notice}
 
-{% include inquiry %}
+{% include inquiry.html %}
