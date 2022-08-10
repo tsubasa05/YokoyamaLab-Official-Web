@@ -115,6 +115,11 @@ body {
 		padding: 2em 0;
 	    box-shadow: none;
 	}
+	@media #{$medium} {
+		width: 100%;
+		padding: 2em 0;
+	    box-shadow: none;
+	}
 }
 #disqus_thread {
 	width: 75%;
