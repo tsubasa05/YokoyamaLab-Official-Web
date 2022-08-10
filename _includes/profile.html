@@ -2,7 +2,7 @@
     <div class="card-wrapper">
         <div class="card">
             <div class="card-image">
-                <img src="{{ site.url }}/assets/img/profile{{ include.img }}" alt="profile one" />
+                <img src="{{ site.url }}/assets/img/profile/{{ include.img }}" alt="profile one" />
             </div>
 
             <ul class="social-icons">
@@ -38,9 +38,9 @@
 
             <div class="details">
                 <h2>
-                    John Smith
+                    {% if include.name %}
                     <br />
-                    <span class="job-title">UI Developer</span>
+                    <span class="job-title">{% if include.org %}</span>
                 </h2>
             </div>
         </div>
