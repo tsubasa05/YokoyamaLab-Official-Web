@@ -18,7 +18,7 @@ comments: false
 
 現在取り組んでいる研究概要に興味がありましたら、以下のページをご覧ください。
 
-<div markdown="0"><a href="our-projects/" class="btn">横山研の研究概要</a></div>
+<div markdown="0"><a href="{{ site.url }}/our-projects/" class="btn">横山研の研究概要</a></div>
 
 ### Labo Reader: 横山 昌平
 
