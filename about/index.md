@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: "横山研究室について"
 date: 2018-04-01
 excerpt: "横山研究室は2018年4月に発足した東京都立大学システムデザイン学部情報科学科に属するデータベースやデータ工学に関する研究室です。"
@@ -24,10 +24,22 @@ comments: false
 
 {% include toc.html html=content skip_no_ids=true %}
 
-## メッセージ {#message}
+## メッセージ{#Message}
 
+<div class="post-list">
+    {% for post in site.posts %} 
+        {% if post.about %}
+    <ul>
+        <li class="wow fadeInLeft" data-wow-duration="1.5s">
+            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+            <p>{{ post.excerpt }}</p>
+            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+        </li>
+    </ul>
+        {% endif %}
+    {% endfor %}
+</div>
 
+## アクセス{#Message}
 
-## アクセス {#access}
-
-
+・・・
