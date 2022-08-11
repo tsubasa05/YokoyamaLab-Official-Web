@@ -63,7 +63,7 @@ comments: false
 
 また、よく聞かれる項目とその回答を以下のページでまとめていますのでご覧ください。
 
-<div markdown="0"><a href="[{{ site.url }}/our-projects/](https://tayori.com/faq/18078427496365448a1478ce2dad8ff922fcea4e/)" class="btn btn-info">Frequently Asked Questions</a></div>
+<div markdown="0"><a href="https://tayori.com/faq/18078427496365448a1478ce2dad8ff922fcea4e/" class="btn btn-info">Frequently Asked Questions (FAQ)</a></div>
 
 ## お問い合わせ先
 
