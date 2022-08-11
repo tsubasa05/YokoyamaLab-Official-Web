@@ -1,6 +1,7 @@
 .card-container {
     max-width: 900px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0 auto;
 }
