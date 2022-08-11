@@ -1,4 +1,8 @@
+{% if include.type == "start" %}
 <div class="card-container">
+{% elsif include.type == "end" %}
+</div>
+{% else %}
     <div class="card-wrapper">
         <div class="card">
             <div class="card-image">
@@ -43,4 +47,4 @@
             </div>
         </div>
     </div>
-</div>
+{% endif %}
