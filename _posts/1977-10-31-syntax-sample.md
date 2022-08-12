@@ -59,6 +59,8 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 
 ### 通常のテーブル
 
+#### ヘッダーあり
+
 ```
 | Header1 | Header2 | Header3 |
 | :------ | :-----: | ------: |
@@ -82,7 +84,7 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 | =====   |
 | Foot1   |  Foot2  |   Foot3 |
 
-### ヘッダーレステーブル
+#### ヘッダー無し
 
 ```
 |:--------|:-------:|--------:|
@@ -100,10 +102,36 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 
 ### キーバリューテーブル
 
+#### ヘッダーなし
+```
 |--------:|:-------|
 | key1   | value1   |
 | key2   | value2   |
 {: .keyvalue}
+```
+
+|--------:|:-------|
+| key1   | value1   |
+| key2   | value2   |
+{: .keyvalue}
+
+
+#### ヘッダーあり
+
+````
+| Key     | Value   |
+|--------:|:-------|
+| key1   | value1   |
+| key2   | value2   |
+{: .keyvalue}
+````
+
+| Key     | Value   |
+|--------:|:-------|
+| key1   | value1   |
+| key2   | value2   |
+{: .keyvalue}
+
 
 ## Code Snippets
 
