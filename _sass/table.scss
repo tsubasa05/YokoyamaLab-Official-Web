@@ -37,63 +37,6 @@
 
 /* Vertical */
 
-.content table.vertical {
-    display: block;
-    width: 100%;
-}
-.content table.vertical thead,
-.content table tbody,
-.content table thead th {
-    display: block;
-}
-.content table.vertical thead th:last-child {
-    border-bottom: none;
-}
-.content table.vertical thead {
-    float: left;
-}
-.content table.vertical tbody {
-    width: auto;
-    position: relative;
-    overflow-x: auto;
-}
-.content table.vertical td,
-.content table th {
-    padding: 20px 0.625em 0.625em 0.625em;
-    height: 60px;
-    vertical-align: middle;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: auto;
-    width: 120px;
-    font-size: 13px;
-    text-overflow: ellipsis;
-}
-.content table.vertical thead th {
-    text-align: left;
-    border-bottom: 1px solid #f7f7f9;
-}
-.content table.vertical tbody tr {
-    display: table-cell;
-}
-.content table.vertical tbody tr:nth-child(odd) {
-    background: none;
-}
-.content table.vertical tr:nth-child(even) {
-    background: transparent;
-}
-.content table.vertical tr td:nth-child(odd) {
-    background: #f8f8f8;
-    border-right: 1px solid #e6e4e4;
-}
-.content table.vertical tr td:nth-child(even) {
-    border-right: 1px solid #e6e4e4;
-}
-.content table.vertical tbody td {
-    display: block;
-    text-align: center;
-}
-
 /* Responsive */
 
 @media (max-width: 767px) {
