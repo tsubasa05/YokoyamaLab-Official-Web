@@ -57,7 +57,34 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 
 ## Tables
 
+### 通常のテーブル
+
+```
 | Header1 | Header2 | Header3 |
+| :------ | :-----: | ------: |
+| cell1   |  cell2  |   cell3 |
+| cell4   |  cell5  |   cell6 |
+| ----    |
+| cell1   |  cell2  |   cell3 |
+| cell4   |  cell5  |   cell6 |
+| =====   |
+| Foot1   |  Foot2  |   Foot3 |
+
+```
+
+| Header1 | Header2 | Header3 |
+| :------ | :-----: | ------: |
+| cell1   |  cell2  |   cell3 |
+| cell4   |  cell5  |   cell6 |
+| ----    |
+| cell1   |  cell2  |   cell3 |
+| cell4   |  cell5  |   cell6 |
+| =====   |
+| Foot1   |  Foot2  |   Foot3 |
+
+### ヘッダーレステーブル
+
+```
 |:--------|:-------:|--------:|
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
@@ -66,6 +93,23 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 | cell4   | cell5   | cell6   |
 |=====
 | Foot1   | Foot2   | Foot3
+```
+
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3
+
+### キーバリューテーブル
+
+|--------:|:-------|
+| key1   | value1   |
+| key2   | value2   |
+{: .keyvalue}
 
 ## Code Snippets
 
