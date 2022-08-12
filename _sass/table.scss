@@ -18,7 +18,7 @@
 
 .content table td {
     border-right: 1px solid #f8f8f8;
-    font-size: 12px;
+    font-size: 0.9em;
 }
 
 .content table thead th {
@@ -36,12 +36,20 @@
 }
 
 /* Key-Value Table */
-.content table.keyvalue tbody tr:nth-child(odd) td:first-child{
-    background:#c34f71;
+.content table.keyvalue tbody tr {
+    border-bottom:#324960 dotted 1px;
 }
 
-.content table.keyvalue tbody tr:nth-child(even) td:first-child{
-    background:324960;
+.content table.keyvalue tbody tr:nth-child(odd) td:first-child {
+    background: #c34f71;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.content table.keyvalue tbody tr:nth-child(even) td:first-child {
+    background: #324960;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /* Responsive */
