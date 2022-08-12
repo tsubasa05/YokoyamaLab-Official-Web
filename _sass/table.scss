@@ -1,6 +1,6 @@
 .content table {
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 0.9em;
     font-weight: normal;
     border: none;
     border-collapse: collapse;
@@ -35,7 +35,14 @@
     background: #f8f8f8;
 }
 
-/* Vertical */
+/* Key-Value Table */
+.content table.keyvalue tbody tr:nth-child(odd) td:first-child{
+    background:red;
+}
+
+.content table.keyvalue tbody tr:nth-child(even) td:first-child{
+    background:blue;
+}
 
 /* Responsive */
 
@@ -48,7 +55,7 @@
         content: "Scroll horizontally >";
         display: block;
         text-align: right;
-        font-size: 11px;
+        font-size: 0.6em;
         color: white;
         padding: 0 0 10px;
     }
@@ -77,7 +84,7 @@
         overflow-x: hidden;
         overflow-y: auto;
         width: 120px;
-        font-size: 13px;
+        font-size: 1em;
         text-overflow: ellipsis;
     }
     .content table thead th {
