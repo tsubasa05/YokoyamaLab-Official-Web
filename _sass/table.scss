@@ -10,7 +10,8 @@
     background-color: white;
 }
 
-.content table td, .content table th {
+.content table td,
+.content table th {
     text-align: center;
     padding: 8px;
 }
@@ -22,9 +23,8 @@
 
 .content table thead th {
     color: #ffffff;
-    background: #4FC3A1;
+    background: #4fc3a1;
 }
-
 
 .content table thead th:nth-child(odd) {
     color: #ffffff;
@@ -32,7 +32,66 @@
 }
 
 .content table tr:nth-child(even) {
-    background: #F8F8F8;
+    background: #f8f8f8;
+}
+
+/* Vertical */
+
+.content table.vertical {
+    display: block;
+    width: 100%;
+}
+.content table.vertical thead,
+.content table tbody,
+.content table thead th {
+    display: block;
+}
+.content table.vertical thead th:last-child {
+    border-bottom: none;
+}
+.content table.vertical thead {
+    float: left;
+}
+.content table.vertical tbody {
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+}
+.content table.vertical td,
+.content table th {
+    padding: 20px 0.625em 0.625em 0.625em;
+    height: 60px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 120px;
+    font-size: 13px;
+    text-overflow: ellipsis;
+}
+.content table.vertical thead th {
+    text-align: left;
+    border-bottom: 1px solid #f7f7f9;
+}
+.content table.vertical tbody tr {
+    display: table-cell;
+}
+.content table.vertical tbody tr:nth-child(odd) {
+    background: none;
+}
+.content table.vertical tr:nth-child(even) {
+    background: transparent;
+}
+.content table.vertical tr td:nth-child(odd) {
+    background: #f8f8f8;
+    border-right: 1px solid #e6e4e4;
+}
+.content table.vertical tr td:nth-child(even) {
+    border-right: 1px solid #e6e4e4;
+}
+.content table.vertical tbody td {
+    display: block;
+    text-align: center;
 }
 
 /* Responsive */
@@ -42,7 +101,7 @@
         display: block;
         width: 100%;
     }
-    .table-wrapper:before{
+    .table-wrapper:before {
         content: "Scroll horizontally >";
         display: block;
         text-align: right;
@@ -50,10 +109,12 @@
         color: white;
         padding: 0 0 10px;
     }
-    .content table thead, .content table tbody, .content table thead th {
+    .content table thead,
+    .content table tbody,
+    .content table thead th {
         display: block;
     }
-    .content table thead th:last-child{
+    .content table thead th:last-child {
         border-bottom: none;
     }
     .content table thead {
@@ -64,8 +125,9 @@
         position: relative;
         overflow-x: auto;
     }
-    .content table td, .content table th {
-        padding: 20px .625em .625em .625em;
+    .content table td,
+    .content table th {
+        padding: 20px 0.625em 0.625em 0.625em;
         height: 60px;
         vertical-align: middle;
         box-sizing: border-box;
@@ -89,11 +151,11 @@
         background: transparent;
     }
     .content table tr td:nth-child(odd) {
-        background: #F8F8F8;
-        border-right: 1px solid #E6E4E4;
+        background: #f8f8f8;
+        border-right: 1px solid #e6e4e4;
     }
     .content table tr td:nth-child(even) {
-        border-right: 1px solid #E6E4E4;
+        border-right: 1px solid #e6e4e4;
     }
     .content table tbody td {
         display: block;
