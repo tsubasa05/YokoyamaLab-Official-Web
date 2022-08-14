@@ -53,14 +53,14 @@
 }
 
 /* Responsive */
-
+/*
 @media #{$small} {
     .content table thead td {
-        writing-mode: vertical-rl;
+       
     }
-}
+}*/
 
-/*
+
 @media (max-width: 767px) {
     .content table {
         display: block;
@@ -125,6 +125,7 @@
     .content table tbody td {
         display: block;
         text-align: center;
+        writing-mode: vertical-rl;
     }
 }
-*/
+
