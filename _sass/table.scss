@@ -94,9 +94,6 @@
         overflow-y: auto;
         font-size: 1em;
         text-overflow: ellipsis;
-        :first-child {
-            height: 10em;
-        }
     }
     .content table thead th {
         text-align: left;
@@ -117,6 +114,9 @@
     }
     .content table tr td:nth-child(even) {
         border-right: 1px solid #e6e4e4;
+    }
+    .content table tr td:first-child {
+        height: 10em;
     }
     .content table tbody td {
         display: block;
