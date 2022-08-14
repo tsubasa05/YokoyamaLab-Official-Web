@@ -6,7 +6,7 @@
     border-collapse: collapse;
     width: 100%;
     max-width: 100%;
-    //white-space: nowrap;
+    white-space: nowrap;
     background-color: white;
 }
 
@@ -53,12 +53,6 @@
 }
 
 /* Responsive */
-/*
-@media #{$small} {
-    .content table thead td {
-       
-    }
-}*/
 
 @media (max-width: 767px) {
     .content table {
@@ -89,26 +83,20 @@
         position: relative;
         overflow-x: auto;
     }
-    .content table td {
-        padding: 0.5em;
-        height: calc(80vh - 60px);
+    .content table td,
+    .content table th {
+        writing-mode: vertical-lr;
+        padding: 1em;
+        height: calc(100vh - 10em);
         vertical-align: middle;
         box-sizing: border-box;
         overflow-x: hidden;
         overflow-y: auto;
-        width: 4em;
         font-size: 1em;
         text-overflow: ellipsis;
-    }
-    .content table th {
-        padding: 0.5em;
-        height: 60px;
-        vertical-align: middle;
-        box-sizing: border-box;
-        overflow-x: hidden;
-        overflow-y: hidden;
-        width: 4em;
-        font-size: 1em;
+        :first-child {
+            height: 10em;
+        }
     }
     .content table thead th {
         text-align: left;
@@ -133,6 +121,5 @@
     .content table tbody td {
         display: block;
         text-align: center;
-        writing-mode: vertical-rl;
     }
 }
