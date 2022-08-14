@@ -90,17 +90,26 @@
         position: relative;
         overflow-x: auto;
     }
-    .content table td,
-    .content table th {
+    .content table td{
         padding: 20px 0.625em 0.625em 0.625em;
-        height: 60px;
+        height: calc(80vh - 60px);
         vertical-align: middle;
         box-sizing: border-box;
         overflow-x: hidden;
         overflow-y: auto;
         width: 120px;
         font-size: 1em;
-        text-overflow: ellipsis;
+        text-overflow: ellipsis;        
+    }
+    .content table th {
+        padding: 20px 0.625em 0.625em 0.625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 120px;
+        font-size: 1em;
     }
     .content table thead th {
         text-align: left;
