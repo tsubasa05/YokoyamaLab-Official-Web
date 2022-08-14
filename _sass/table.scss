@@ -37,7 +37,7 @@
 
 /* Key-Value Table */
 .content table.keyvalue tbody tr {
-    border-bottom:#324960 dotted 1px;
+    border-bottom: #324960 dotted 1px;
 }
 
 .content table.keyvalue tbody tr:nth-child(odd) td:first-child {
@@ -54,6 +54,13 @@
 
 /* Responsive */
 
+@media #{$small} {
+    .content table thead td {
+        writing-mode: vertical-rl;
+    }
+}
+
+/*
 @media (max-width: 767px) {
     .content table {
         display: block;
@@ -120,3 +127,4 @@
         text-align: center;
     }
 }
+*/
