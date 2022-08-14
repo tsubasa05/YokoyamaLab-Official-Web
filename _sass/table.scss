@@ -55,7 +55,7 @@
 /* Responsive */
 
 @media (max-width: 767px) {
-    .content table {
+    .content table.keyvalue {
         display: block;
         width: 100%;
     }
@@ -67,24 +67,24 @@
         color: white;
         padding: 0 0 10px;
     }
-    .content table thead,
-    .content table tbody,
-    .content table thead th {
+    .content table.keyvalue thead,
+    .content table.keyvalue tbody,
+    .content table.keyvalue thead th {
         display: block;
     }
-    .content table thead th:last-child {
+    .content table.keyvalue thead th:last-child {
         border-bottom: none;
     }
-    .content table thead {
+    .content table.keyvalue thead {
         float: left;
     }
-    .content table tbody {
+    .content table.keyvalue tbody {
         width: auto;
         position: relative;
         overflow-x: auto;
     }
-    .content table td,
-    .content table th {
+    .content table.keyvalue td,
+    .content table.keyvalue th {
         writing-mode: vertical-lr;
         padding: 1em;
         height: calc(100vh - 10em);
@@ -93,32 +93,31 @@
         overflow-x: hidden;
         overflow-y: auto;
         font-size: 1em;
-        text-overflow: ellipsis;
     }
-    .content table thead th {
+    .content table.keyvalue thead th {
         text-align: left;
         border-bottom: 1px solid #f7f7f9;
     }
-    .content table tbody tr {
+    .content table.keyvalue tbody tr {
         display: table-cell;
     }
-    .content table tbody tr:nth-child(odd) {
+    .content table.keyvalue tbody tr:nth-child(odd) {
         background: none;
     }
     .content table tr:nth-child(even) {
         background: transparent;
     }
-    .content table tr td:nth-child(odd) {
+    .content table.keyvalue tr td:nth-child(odd) {
         background: #f8f8f8;
         border-right: 1px solid #e6e4e4;
     }
-    .content table tr td:nth-child(even) {
+    .content table.keyvalue tr td:nth-child(even) {
         border-right: 1px solid #e6e4e4;
     }
-    .content table tr td:first-child {
+    .content table.keyvalue tr td:first-child {
         height: 10em;
     }
-    .content table tbody td {
+    .content table.keyvalue tbody td {
         display: block;
         text-align: center;
     }
